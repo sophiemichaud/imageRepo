@@ -1,24 +1,12 @@
 # README
+This is my submission for the Shopify Developper Intern Challenge Question!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Background
+Before beginning this project I decided to do a bit of research on some popular online image repositories and their features. Some examples of these websites include:
 
-Things you may want to cover:
+- https://www.alamy.com/
+- https://www.gettyimages.com/
+I also took inspiration for this project from a Shopify blog post written by Braveen Kumar: https://www.shopify.ca/blog/how-to-sell-photos-online. This blog post provided me with a super helpful insight into the basics of selling/buying images online.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Specifications
+I wanted to use this project as an opportunity to teach myself something new so I chose to create this project as a Rails web application.
