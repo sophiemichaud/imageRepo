@@ -1,3 +1,18 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+# about page route
+get 'home/about'
+
+# cart page route
+get 'home/cart'
+
+# login page route
+get 'home/login'
+
+# sign up page route
+get 'home/signup'
+
+# home page route
+root 'home#index'
+
 end
