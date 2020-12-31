@@ -14,4 +14,7 @@ I also took inspiration for this project from a Shopify blog post written by Bra
 # Specifications
 I wanted to use this project as an opportunity to teach myself something new so I chose to create this project as a Rails web application. 
 
-I used a Postgresql database, Microsoft Azure for storage, and I hosted the application on Heroku.
+- Database: Postgresql
+- Storage: Microsoft Azure
+- Hosting: Heroku
+- Styling: Bootstrap
