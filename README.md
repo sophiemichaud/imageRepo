@@ -1,7 +1,7 @@
 # README
 This is my submission for the Shopify Developper Intern Challenge Question!
 
-Here is a direct link to my [Picto Vault](https://picto-vault.herokuapp.com/) application.
+Here is a direct link to my [Picto Vault](https://picto-vault.herokuapp.com/) application hosted on Heroku.
 
 # Background
 Before beginning this project I decided to do a bit of research on some popular online image repositories and their features. Some examples of these websites include:
