@@ -24,9 +24,9 @@ local:
 # Use rails credentials:edit to set the Azure Storage secret (as azure_storage:storage_access_key)
 microsoft:
    service: AzureStorage
-   storage_account_name: pictovault
-   storage_access_key: <%= Rails.application.credentials.dig(:azure_storage, :RCLb07UZTymaAHjNqQfoGKjDtDIarbN4Hca8DUepYrJnJrt9dxxq9WDoEBy8HTM+kiO/cEI6iWsYXD7rfPNBMw==) %>
-   container: pictures
+   storage_account_name: "pictovault"
+   storage_access_key: "RCLb07UZTymaAHjNqQfoGKjDtDIarbN4Hca8DUepYrJnJrt9dxxq9WDoEBy8HTM+kiO/cEI6iWsYXD7rfPNBMw=="
+   container: "pictures"
 
 # mirror:
 #   service: Mirror
