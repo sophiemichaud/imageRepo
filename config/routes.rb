@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :users
 # about page route
 get 'home/about'
 
