@@ -8,6 +8,7 @@ Before beginning this project I decided to do a bit of research on some popular 
 
 - https://www.alamy.com/
 - https://www.gettyimages.com/
+
 I also took inspiration for this project from a Shopify blog post written by Braveen Kumar: https://www.shopify.ca/blog/how-to-sell-photos-online. This blog post provided me with a super helpful insight into the basics of selling/buying images online.
 
 # Specifications
