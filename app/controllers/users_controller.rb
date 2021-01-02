@@ -10,7 +10,7 @@ class UsersController < ApplicationController
      @user = User.create(params.require(:user).permit(:first_name, :last_name, :email,        
      :password))
      session[:user_id] = @user.id
-     redirect_to '/welcome'
+     redirect_to 'root'
   end
 
 end

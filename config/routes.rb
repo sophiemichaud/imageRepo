@@ -1,14 +1,20 @@
 Rails.application.routes.draw do
 
 resources :users, only: [:new, :create]
+resources :sessions, only: [:new, :create, :destroy]
 
+# log in route
 get 'login', to: 'sessions#new'
 
 post 'login', to: 'sessions#create'
 
-get 'welcome', to: 'sessions#welcome'
+# log out route
+get 'logout', to: 'sessions#destroy', as: 'logout'
 
-get 'authorized', to: 'sessions#page_requires_login'
+# sign up page route
+get 'signup', to: 'users#new', as: 'signup'
+
+post 'signup', to: 'sessions#create'
 
 # about page route
 get 'home/about'
