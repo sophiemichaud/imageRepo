@@ -1,0 +1,18 @@
+<%= form_with(model: session) do |form| %>
+        <div class="col-md-12">
+            <%= form.label :email, for:"validationCustomUsername", class:"form-label"%>
+            <div class="input-group has-validation">
+            <%= form.text_field :email, class:"form-control", id:"validationCustomEmail" %>
+            </div>
+            <div class="invalid-feedback">
+                Please choose a valid email.
+            </div>
+        </div>
+        <br/>
+
+        <div class="col-md-12">
+            <%= form.label :password, for:"validationCustom02", class:"form-label" %>
+            <%= form.password_field :password, class:"form-control", id:"validationCustom02" %>
+        </div>
+        <br/>
+<% end %>
