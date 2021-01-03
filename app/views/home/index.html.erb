@@ -1,18 +1,6 @@
+<header>
 <div class="container-fluid px-0">
-
-    <h1 class="welcome">Welcome to Picto Vault!</h1>
-
-    <% if current_user %>
-    You are logged with <%= current_user.email %>.
-    <%= link_to "Log Out", 'logout', class: "nav-link" %>
-    <% else %>
-        <div class="welcome">
-            <%= link_to "Sign Up", 'signup', class: "btn btn-outline-dark" %> or
-            <%= link_to "Log In", 'login', class: "btn btn-outline-dark" %>
-        </div>
-    <% end %>
-    </br>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -20,25 +8,73 @@
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <div class="d-flex align-items-center justify-content-center min-vh-100 img-fluid">
+            <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <%= image_tag('IMG_2757.JPG', class: "d-block w-100", alt: "Countryside in Collingwood") %>
+                <div class="carousel-caption">
+                    <h1 class="welcome">Welcome to Picto Vault!</h1>
+                    <% if current_user %>
+                    You are logged with <%= current_user.email %>.
+                    <%= link_to "Log Out", 'logout', class: "nav-link" %>
+                    <% else %>
+                        <div class="welcome">
+                            <%= link_to "Log In", 'login', class: "btn btn-dark" %> or
+                            <%= link_to "Sign Up", 'signup', class: "btn btn-dark" %>
+                        </div>
+                    <% end %>
+                </div>
             </div>
         </div>
         <div class="carousel-item">
             <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <%= image_tag('IMG_1207.jpg', class: "d-block w-100", alt: "Countryside in Collingwood") %>
+                <div class="carousel-caption">
+                    <h1 class="welcome">Welcome to Picto Vault!</h1>
+                    <% if current_user %>
+                    You are logged with <%= current_user.email %>.
+                    <%= link_to "Log Out", 'logout', class: "nav-link" %>
+                    <% else %>
+                        <div class="welcome">
+                            <%= link_to "Log In", 'login', class: "btn btn-dark" %> or
+                            <%= link_to "Sign Up", 'signup', class: "btn btn-dark" %>
+                        </div>
+                    <% end %>
+                </div>
             </div>
         </div>
         <div class="carousel-item">
             <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <%= image_tag('IMG_1352.jpg', class: "d-block w-100", alt: "Countryside in Collingwood") %>
+                <div class="carousel-caption">
+                    <h1 class="welcome">Welcome to Picto Vault!</h1>
+                    <% if current_user %>
+                    You are logged with <%= current_user.email %>.
+                    <%= link_to "Log Out", 'logout', class: "nav-link" %>
+                    <% else %>
+                        <div class="welcome">
+                            <%= link_to "Log In", 'login', class: "btn btn-dark" %> or
+                            <%= link_to "Sign Up", 'signup', class: "btn btn-dark" %>
+                        </div>
+                    <% end %>
+                </div>
             </div>
         </div>
         <div class="carousel-item">
             <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <%= image_tag('flowers.jpg', class: "d-block w-100", alt: "Countryside in Collingwood") %>
+                <div class="carousel-caption">
+                    <h1 class="welcome">Welcome to Picto Vault!</h1>
+                    <% if current_user %>
+                    You are logged with <%= current_user.email %>.
+                    <%= link_to "Log Out", 'logout', class: "nav-link" %>
+                    <% else %>
+                        <div class="welcome">
+                            <%= link_to "Log In", 'login', class: "btn btn-dark" %> or
+                            <%= link_to "Sign Up", 'signup', class: "btn btn-dark" %>
+                        </div>
+                    <% end %>
+                </div>
             </div>
         </div>
     </div>
@@ -52,3 +88,4 @@
     </a>
     </div>
 </div>
+</header>

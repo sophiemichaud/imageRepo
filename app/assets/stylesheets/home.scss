@@ -27,9 +27,20 @@
 .welcome{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    color: black;
 }
 
-.carousel { height: calc(100vh - 56px);}
-.carousel-inner,.carousel-item { height: 100%; width: 100%;}
-.carousel-item { background-color:white}
-.carousel-item img { height: 100%; object-fit: cover; object-position: center;}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
