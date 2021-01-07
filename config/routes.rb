@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+resources :posts
 resources :users, only: [:new, :create]
 resources :sessions, only: [:new, :create, :destroy]
 
@@ -15,6 +16,10 @@ get 'logout', to: 'sessions#destroy', as: 'logout'
 get 'signup', to: 'users#new', as: 'signup'
 
 get 'authorized', to: 'sessions#page_requires_login'
+
+get 'upload', to: 'posts#new', as: 'upload'
+
+get 'posts/show'
 
 # about page route
 get 'home/about'

@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.7'
 gem "azure-storage-blob", require: false
 gem 'bcrypt'
 gem 'devise'
+gem 'mini_magick'
+gem 'image_processing', '~> 1.2'
 
 #gem 'bootsnap', '>= 1.4.4', require: false
 

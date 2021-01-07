@@ -1,0 +1,11 @@
+<h1><%= @post.title %></h1>
+
+<%= sanitize @post.description %>
+
+<div>
+  <% @post.uploads.each do |upload| %>
+    <% if upload.variable? %>
+      <%= link_to image_tag(upload.variant(resize: "400x400")), upload %>
+    <% end %>
+  <% end %>
+</div>
