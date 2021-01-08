@@ -3,6 +3,13 @@ This is my submission for the Shopify Developper Intern Challenge Question!
 
 Here is a direct link to my [Picto Vault](https://picto-vault.herokuapp.com/) application hosted on Heroku.
 
+# Table of Contents
+
+- [Challenge Requirements](#challenge-requirements)
+- [Background](#background)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+
 # Challenge Requirements
 
 Task: Build an image repository using any technology. Frameworks, libraries and external dependencies can be used to help you get faster to the parts you are interested in building. Below are the ideas that I chose to implement provided by the Shopify team (items with check marks are the components I was able to implement):
