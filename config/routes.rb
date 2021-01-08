@@ -15,8 +15,6 @@ get 'logout', to: 'sessions#destroy', as: 'logout'
 # sign up page route
 get 'signup', to: 'users#new', as: 'signup'
 
-get 'authorized', to: 'sessions#page_requires_login'
-
 get 'images', to: 'posts#index', as: 'images'
 
 get 'uploads', to: 'posts#new', as: 'uploads'

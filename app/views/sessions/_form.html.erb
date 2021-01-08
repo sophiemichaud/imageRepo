@@ -1,18 +1,28 @@
 <%= form_with(model: session) do |form| %>
-        <div class="col-md-12">
-            <%= form.label :email, for:"validationCustomUsername", class:"form-label"%>
-            <div class="input-group has-validation">
-            <%= form.text_field :email, class:"form-control", id:"validationCustomEmail" %>
+    <div class="center">
+        <div class="child">
+            <p id=”alert”><%= alert %></p>
+            </br>
+            <h1 class="message">Welcome Back to Picto Vault!</h1>
+            <div class= "col-md-12">
+                <%= form.label :email, for:"validationCustom02", class:"form-label" %>
+                <div class="input-group has-validation">
+                    <%= form.text_field :email, class:"form-control", id:"validationCustomEmail" %>
+                </div>
             </div>
-            <div class="invalid-feedback">
-                Please choose a valid email.
+            </br>
+            <div class= "col-md-12">
+                <%= form.label :password, for:"validationCustom02", class:"form-label" %>
+                <%= form.password_field :password, class:"form-control", id:"validationCustom02" %>
+            </div>
+            </br>
+            <div class= "col-md-12">
+                <%= form.submit :Login, class:"btn btn-dark", type:"submit" %>
+            </div>
+            <div>
+            </br>
+                <%= link_to 'Back', root_path, class:"btn btn-secondary" %>
             </div>
         </div>
-        <br/>
-
-        <div class="col-md-12">
-            <%= form.label :password, for:"validationCustom02", class:"form-label" %>
-            <%= form.password_field :password, class:"form-control", id:"validationCustom02" %>
-        </div>
-        <br/>
+    </div>
 <% end %>

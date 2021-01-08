@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
     end
 
     def authorized
-       redirect_to login_url, alert: "Not authorized, please login" if current_user.nil?
+       redirect_to login_url, alert: "Please login or sign up to use Picto Vault" unless logged_in?
     end
 
 end

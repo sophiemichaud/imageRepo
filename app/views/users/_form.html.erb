@@ -11,48 +11,57 @@
     </div>
   <% end %>
 
-  <div class="col-md-4">
-    <%= form.label :first_name, for:"validationCustom02", class:"form-label" %>
-    <%= form.text_field :first_name, class:"form-control", id:"validationCustom02" %>
-    <div class="valid-feedback">
-      Looks good!
+  <div class="center">
+    <div class="child">
+      </br>
+      <h1 class="message">New to Picto Vault?</h1>
+      <div class="col-md-12">
+        <%= form.label :first_name, for:"validationCustom02", class:"form-label" %>
+        <%= form.text_field :first_name, class:"form-control", id:"validationCustom02" %>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <br/>
+
+      <div class="col-md-12">
+        <%= form.label :last_name, for:"validationCustom02", class:"form-label" %>
+        <%= form.text_field :last_name, class:"form-control", id:"validationCustom02" %>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <br/>
+
+      <div class="col-md-12">
+        <%= form.label :email, for:"validationCustomUsername", class:"form-label"%>
+        <div class="input-group has-validation">
+          <%= form.text_field :email, class:"form-control", id:"validationCustomEmail" %>
+        </div>
+        <div class="invalid-feedback">
+            Please choose a valid email.
+        </div>
+      </div>
+      <br/>
+
+      <div class="col-md-12">
+        <%= form.label :password, for:"validationCustom02", class:"form-label" %>
+        <%= form.password_field :password, class:"form-control", id:"validationCustom02" %>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <br/>
+
+      <div class="col-12">
+        <%= form.submit :Register, class:"btn btn-dark", type:"submit" %>
+      </div>
+      <br/>
+
+      <div>
+        <%= link_to 'Back', root_path, class:"btn btn-secondary" %>
+      </div>
+
     </div>
   </div>
-  <br/>
-
-  <div class="col-md-4">
-    <%= form.label :last_name, for:"validationCustom02", class:"form-label" %>
-    <%= form.text_field :last_name, class:"form-control", id:"validationCustom02" %>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <br/>
-
-  <div class="col-md-4">
-    <%= form.label :email, for:"validationCustomUsername", class:"form-label"%>
-    <div class="input-group has-validation">
-      <%= form.text_field :email, class:"form-control", id:"validationCustomEmail" %>
-    </div>
-    <div class="invalid-feedback">
-        Please choose a valid email.
-    </div>
-  </div>
-  <br/>
-
-  <div class="col-md-4">
-    <%= form.label :password, for:"validationCustom02", class:"form-label" %>
-    <%= form.password_field :password, class:"form-control", id:"validationCustom02" %>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <br/>
-
-  <div class="col-12">
-    <%= form.submit :Register, class:"btn btn-dark", type:"submit" %>
-  </div>
-  <br/>
-
-
 <% end %>
