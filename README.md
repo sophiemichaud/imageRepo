@@ -17,7 +17,7 @@ DELETE image(s)
 - [X] Prevent a user deleting images from another user (access control)
 - [X] secure deletion of images
 
-I used these ideas as a starting point but the first thing that came to mind when starting this project was to re-create a Dropbox type web application. Users are able to use Picto Vault to securely upload pictures to their account as well as delete them. Additionally, picture uploads to the app can be done in individually or in bulk. 
+I used these ideas as a starting point but the first thing that came to mind when starting this project was to re-create a Dropbox type web application. Users are able to use Picto Vault to securely upload pictures to their account as well as delete them. Additionally, picture uploads/deletions to the app can be done in individually or in bulk. 
 
 # Background
 Before beginning this project I decided to do a bit of research on some popular online image repositories and their features. Some examples of these websites include:
