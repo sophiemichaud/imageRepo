@@ -3,26 +3,28 @@ This is my submission for the Shopify Developper Intern Challenge Question!
 
 Here is a direct link to my [Picto Vault](https://picto-vault.herokuapp.com/) application hosted on Heroku.
 
+# Table of Contents
+
+- [Challenge Requirements](#challenge-requirements)
+- [Background](#background)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+
 # Challenge Requirements
 
 Task: Build an image repository using any technology. Frameworks, libraries and external dependencies can be used to help you get faster to the parts you are interested in building. Below are the ideas that I chose to implement provided by the Shopify team (items with check marks are the components I was able to implement):
 
-SEARCH function
-- [ ] from characteristics of the images
-- [ ] from text
-- [ ] from an image (search for similar images)
-
 ADD image(s) to the repository
 - [X] one / bulk / enormous amount of images
-- [ ] private or public (permissions)
+- [X] private or public (permissions)
 - [X] secure uploading and stored images
 
 DELETE image(s)
 - [X] one / bulk / selected / all images
-- [ ] Prevent a user deleting images from another user (access control)
+- [X] Prevent a user deleting images from another user (access control)
 - [X] secure deletion of images
 
-I used these ideas as a starting point for my application and added a few components of my own.
+I used these ideas as a starting point but the first thing that came to mind when starting this project was to re-create a Dropbox type web application. Users are able to use Picto Vault to securely upload pictures to their account as well as delete them. Additionally, picture uploads/deletions to the app can be done in individually or in bulk. 
 
 # Background
 Before beginning this project I decided to do a bit of research on some popular online image repositories and their features. Some examples of these websites include:
@@ -66,3 +68,12 @@ Next, run the following command to install all gem dependencies for this project
 The final step for of the set-up is to run the following two commands to migrate and seed the database to get the default records and schema.
 
 ``` rake db:migrate ``` ``` rake db:seed ```
+
+Once this step is complete, start the server with:
+
+```rails s``` or ```rails server```
+
+This should allow you to use the url : ```http://localhost:3000/``` in your brower to get to the Picto Vault home page. It should look a little something like this:
+
+
+
