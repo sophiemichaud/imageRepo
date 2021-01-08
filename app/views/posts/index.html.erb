@@ -1,26 +1,33 @@
 <p id="notice"><%= notice %></p>
-
-<h1 class="message">My Pictures</h1>
-
+<div class="row align-items-start">
+  <div class="col">
+    <h1 class="message">My Pictures</h1>
+  </div>
+  <div class="col-2">
+    <%= link_to 'Create a New Post', new_post_path, class: "btn btn-dark" %>
+  </div>
+</div>
 <table>
-
   <tbody>
     <% @posts.each do |post| %>
       <div class="settings">
-        Preview of: <%= post.title %>
-        <%= post.description %>
-        </br>
-        <%= button_to 'See Post', post, class: "btn btn-outline-dark col-md-3" %>
-        <%= link_to 'Edit Post', edit_post_path(post), class: "btn btn-outline-dark col-md-3" %>
-        <%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-dark col-md-3" %>
+        Previewing: <%= post.title %>
+        <div class="info">
+        Post Created on: <%= post.created_at.strftime("%m/%d/%Y %I:%M %p") %>
+        </div>
+        <%= button_to 'See Post', post, class: "btn btn-outline-dark" %>
+        <%= link_to 'Edit Post', edit_post_path(post), class: "btn btn-outline-dark" %>
+        <%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-dark" %>
         </br></br>
       </div>
-      <div>
+      <div class="row align-items-start">
         <% post.uploads.first(3).each do |upload| %>
+          <div class="col">
           <% if upload.variable? %>
-            <%= link_to image_tag(upload.variant(resize: "400x400")), upload %>
+            <%= link_to image_tag(upload.variant(resize: "400x400")), upload, class: "md-col-3" %>
             </br></br>
           <% end %>
+          </div>
           </br>
         <% end %>
       </div>
@@ -29,5 +36,3 @@
 </table>
 
 <br>
-
-<%= link_to 'Create a New Post', new_post_path, class: "btn btn-dark" %>
