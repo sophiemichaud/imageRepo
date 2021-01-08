@@ -17,15 +17,12 @@ get 'signup', to: 'users#new', as: 'signup'
 
 get 'authorized', to: 'sessions#page_requires_login'
 
-get 'upload', to: 'posts#new', as: 'upload'
+get 'images', to: 'posts#index', as: 'images'
 
-get 'posts/show'
+get 'uploads', to: 'posts#new', as: 'uploads'
 
 # about page route
 get 'home/about'
-
-# cart page route
-get 'home/cart'
 
 # login page route
 get 'home/login'
