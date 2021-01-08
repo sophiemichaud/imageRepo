@@ -7,11 +7,6 @@ Here is a direct link to my [Picto Vault](https://picto-vault.herokuapp.com/) ap
 
 Task: Build an image repository using any technology. Frameworks, libraries and external dependencies can be used to help you get faster to the parts you are interested in building. Below are the ideas that I chose to implement provided by the Shopify team (items with check marks are the components I was able to implement):
 
-SEARCH function
-- [ ] from characteristics of the images
-- [ ] from text
-- [ ] from an image (search for similar images)
-
 ADD image(s) to the repository
 - [X] one / bulk / enormous amount of images
 - [ ] private or public (permissions)
@@ -19,7 +14,7 @@ ADD image(s) to the repository
 
 DELETE image(s)
 - [X] one / bulk / selected / all images
-- [ ] Prevent a user deleting images from another user (access control)
+- [X] Prevent a user deleting images from another user (access control)
 - [X] secure deletion of images
 
 I used these ideas as a starting point for my application and added a few components of my own.
@@ -66,3 +61,12 @@ Next, run the following command to install all gem dependencies for this project
 The final step for of the set-up is to run the following two commands to migrate and seed the database to get the default records and schema.
 
 ``` rake db:migrate ``` ``` rake db:seed ```
+
+Once this step is complete, start the server with:
+
+```rails s``` or ```rails server```
+
+This should allow you to use the url : ```http://localhost:3000/``` in your brower to get to the Picto Vault home page. It should look a little something like this:
+
+
+
