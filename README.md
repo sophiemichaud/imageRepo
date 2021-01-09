@@ -45,11 +45,6 @@ Here's a few things I learned along the way:
   - Using ActiveStorage with Microsoft Azure to store images
   - Hosting a web application on Heroku
   - Developed my HTML, CSS, and JavaScript skills
-  
-- Database: PostgreSQL
-- Storage: Microsoft Azure
-- Hosting: Heroku
-- UI Components: Bootstrap
 
 # Getting Started
 
