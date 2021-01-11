@@ -33,18 +33,19 @@ Before beginning this project I decided to do a bit of research on some popular 
 - https://www.gettyimages.com/
 
 # Technologies Used
-I wanted to take advantage of my free time during Ontario's January lockdown and use this project as an opportunity to pick up some new skills and learn about new technologies! For the purpose of this web application, I decided to use Ruby on Rails with a built in PostgreSQL database.
+I wanted to take advantage of my free time during Ontario's January lockdown and use this project as an opportunity to pick up some new skills and learn about new technologies! For the purpose of this web application, I decided to learn how to use Ruby on Rails 6 with a built in PostgreSQL database. 
 
-I was set on choosing Ruby on Rails after watching a few simple informational videos and tutorials on the framework. Since Shopify is one of the most successful applications built on Rails, I was very eager to use it to build my application. The MVC architecture of Rails made for an effortless implementation of the image repository. In addition, 
+I was set on choosing Ruby on Rails after watching a few simple informational videos and tutorials on the framework. Since Shopify is one of the most successful applications built on Rails, I was very eager to learn how to use it to build my application. The MVC architecture of Rails made for an effortless implementation of the image repository. Additionally, I really enjoyed working with Rails because of how easy it was to solve any problems I ran into along the way which is attributed of the amount of resources I was able to pull from the Rails community.
 
 Here's a few things I learned along the way:
 
   - How to set up a Ruby on Rails development environment
   - Working with gems and the Gemfile
+  - Setting up the PostgreSQL database and creating migrations
   - How to create a simple authentication system from scratch
   - Using ActiveStorage with Microsoft Azure to store images
   - Hosting a web application on Heroku
-  - Developed my HTML, CSS, and JavaScript skills
+  - Developed my HTML, CSS, and JavaScript skills (my front-end skills are a still a work in progress😊)
 
 # Getting Started
 
