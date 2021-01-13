@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+}
+
 .lock{
     display: block;
     margin: auto;
@@ -43,4 +50,39 @@
 .carousel-caption {
     top: 0;
     bottom: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+ 
+.fa-linkedin {
+    background: #2867B2;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+  
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }

@@ -1,13 +1,12 @@
 <%= form_with(model: session) do |form| %>
     <div class="center">
         <div class="child">
-            <p id=”alert”><%= alert %></p>
             </br>
             <h1 class="message">Welcome Back to Picto Vault!</h1>
             <div class= "col-md-12">
                 <%= form.label :email, for:"validationCustom02", class:"form-label" %>
                 <div class="input-group has-validation">
-                    <%= form.text_field :email, class:"form-control", id:"validationCustomEmail" %>
+                    <%= form.text_field :email, class:"form-control", id:"validationCustom01" %>
                 </div>
             </div>
             </br>
