@@ -29,8 +29,8 @@ I used these ideas as a starting point but the first thing that came to mind whe
 # Background
 Before beginning this project I decided to do a bit of research on some popular online image repositories and their features. Some examples of these websites include:
 
-- https://www.alamy.com/
-- https://www.gettyimages.com/
+- [Alarmy](https://www.alamy.com/)
+- [Getty Images](https://www.gettyimages.com/)
 
 # Technologies Used
 I wanted to take advantage of my free time during Ontario's January lockdown and use this project as an opportunity to pick up some new skills and learn about new technologies! For the purpose of this web application, I decided to learn how to use Ruby on Rails 6 with a built in PostgreSQL database. 
