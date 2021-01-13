@@ -1,3 +1,27 @@
-<%= render 'form', session: @session %>
-
-
+<%= form_tag sessions_path do |form| %>
+    <div class="center">
+        <div class="child">
+            </br>
+            <h1 class="message">Welcome Back to Picto Vault!</h1>
+            <div class= "col-md-12">
+                <%= label_tag :email, "Email", for:"validationCustom02", class:"form-label" %>
+                <div class="input-group has-validation">
+                    <%= text_field_tag :email, "", class:"form-control", id:"validationCustom01" %>
+                </div>
+            </div>
+            </br>
+            <div class= "col-md-12">
+                <%= label_tag :password, "Password", for:"validationCustom02", class:"form-label" %>
+                <%= password_field_tag :password, "", class:"form-control", id:"validationCustom02" %>
+            </div>
+            </br>
+            <div class= "col-md-12">
+                <%= submit_tag :Login, class:"btn btn-dark", type:"submit" %>
+            </div>
+            <div>
+            </br>
+                <%= link_to 'Back', root_path, class:"btn btn-secondary" %>
+            </div>
+        </div>
+    </div>
+<% end %>

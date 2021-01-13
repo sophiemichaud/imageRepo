@@ -31,4 +31,5 @@ get 'home/signup'
 # home page route
 root 'home#index'
 
+
 end
