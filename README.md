@@ -71,5 +71,6 @@ Once this step is complete, start the server with:
 
 This should allow you to use the url : ```http://localhost:3000/``` in your brower to get to the Picto Vault home page. It should look a little something like this:
 
+![Screenshot](https://github.com/sophiemichaud/imageRepo/blob/master/screenshots/home.PNG)
 
-
+In order to get access to uploading and viewing pictures you must log in or sign up on on the home page. If you attempt to go to any of the links under the "My Vault" dropdown, you will be re-directed to the log in page.
