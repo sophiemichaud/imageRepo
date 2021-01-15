@@ -47,7 +47,14 @@ Here's a few things I learned along the way:
   - Developed my HTML, CSS, and JavaScript skills (my front-end skills are a still a work in progress😊)
   
 # Design Process
+  Completed:
   1. 
+  
+  Still working on/want to try:
+  1. UI design
+  2. Form validation
+  3. "See Post" on My Images page
+  4. Adding tags to images/posts + search function
 
 # Getting Started
 
