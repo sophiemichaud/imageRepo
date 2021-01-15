@@ -16,7 +16,6 @@ Task: Build an image repository using any technology. Frameworks, libraries and 
 
 ADD image(s) to the repository
 - [X] one / bulk / enormous amount of images
-- [X] private or public (permissions)
 - [X] secure uploading and stored images
 
 DELETE image(s)
