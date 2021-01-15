@@ -45,6 +45,9 @@ Here's a few things I learned along the way:
   - Using ActiveStorage with Microsoft Azure to store images
   - Hosting a web application on Heroku
   - Developed my HTML, CSS, and JavaScript skills (my front-end skills are a still a work in progress😊)
+  
+# Design Process
+  1. 
 
 # Getting Started
 
