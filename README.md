@@ -48,13 +48,22 @@ Here's a few things I learned along the way:
   
 # Design Process
   Completed:
-  1. 
+  1. Determined application requirements (uploading/deleting images)
+  2. Added a PostgreSQL database
+  3. Added necessary gems for deployment on Heroku
+  4. Created the 'User' model and associated views, routes
+  5. Created the 'Session' model and associated views, routes
+  6. Developed simple user authentication system (with password encryption) with these two models
+  7. Created log in and sign up views
+  8. Set up Active Storage with Microsoft Azure for Heroku deployment
+  9. Created the 'Post' model and associated views, routes
   
   Still working on/want to try:
   1. UI design
   2. Form validation
   3. "See Post" on My Images page
   4. Adding tags to images/posts + search function
+  5. Create a user profile page
 
 # Getting Started
 
