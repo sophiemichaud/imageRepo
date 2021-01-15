@@ -58,7 +58,7 @@ Here's a few things I learned along the way:
   8. Set up Active Storage with Microsoft Azure for Heroku deployment
   9. Created the 'Post' model and associated views, routes
   
-  Still working on/want to try:
+  Still working on / Next Steps:
   1. UI design
   2. Form validation
   3. "See Post" on My Images page
