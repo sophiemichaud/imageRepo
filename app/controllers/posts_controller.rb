@@ -23,8 +23,7 @@ class PostsController < ApplicationController
     @post = current_user.posts.find(params[:id])
   end
 
-  # POST /posts
-  # POST /posts.json
+  # allows users to create a post based on a given set of parameters
   def create
     @post = current_user.posts.new(post_params)
 
@@ -39,8 +38,7 @@ class PostsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /posts/1
-  # PATCH/PUT /posts/1.json
+  # allows users to update any of the defined post parameters
   def update
     @post = current_user.posts.find(params[:id])
     respond_to do |format|
@@ -54,8 +52,7 @@ class PostsController < ApplicationController
     end
   end
 
-  # DELETE /posts/1
-  # DELETE /posts/1.json
+  # allows users to delete a post
   def destroy
     @post = current_user.posts.find(params[:id])
     @post.destroy
@@ -66,12 +63,12 @@ class PostsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    
     def set_post
       @post = Post.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
+    # defines all of the parameters for posts
     def post_params
       params.require(:post).permit(:title, :description, :cover_image, uploads: [])
     end

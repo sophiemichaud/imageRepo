@@ -6,6 +6,7 @@ class UsersController < ApplicationController
      @user = User.new
   end
 
+  # allows a user to create a new account based on a set of parameters
   def create
       @user = User.create(params.require(:user).permit(:first_name, :last_name, :email,        
       :password))

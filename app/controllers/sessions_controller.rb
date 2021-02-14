@@ -5,6 +5,7 @@ class SessionsController < ApplicationController
   def new
   end
 
+  # creates new session for users through login parameters (username, password)
   def create
     user = User.find_by_email(params[:email])
     if user && user.authenticate(params[:password])
@@ -16,6 +17,7 @@ class SessionsController < ApplicationController
     end
   end
 
+  # allows users to end their current session
   def destroy
     session[:user_id] = nil
     redirect_to root_url, notice: "Logged out!"
