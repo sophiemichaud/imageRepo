@@ -19,6 +19,8 @@ get 'images', to: 'posts#index', as: 'images'
 
 get 'uploads', to: 'posts#new', as: 'uploads'
 
+get 'viewposts', to: 'posts#show', as: 'viewposts'
+
 # about page route
 get 'home/about'
 

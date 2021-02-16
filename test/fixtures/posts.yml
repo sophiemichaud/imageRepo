@@ -1,9 +1,10 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+# post with all required data
 one:
-  title: MyString
+  title: 'My Album'
   description: MyString
 
+# post missing a title
 two:
-  title: MyString
   description: MyString

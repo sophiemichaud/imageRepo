@@ -1,10 +1,10 @@
 <p id="notice"><%= notice %></p>
 <div class="row align-items-start">
   <div class="col">
-    <h1 class="message">My Pictures</h1>
+    <h1 class="message">My Albums</h1>
   </div>
   <div class="col-2">
-    <%= link_to 'Create a New Post', new_post_path, class: "btn btn-dark" %>
+    <%= link_to 'Create a New Album', new_post_path, class: "btn btn-dark" %>
   </div>
 </div>
 <table>
@@ -13,9 +13,9 @@
       <div class="settings">
         Previewing: <%= post.title %>
         <div class="info">
-        Post Created on: <%= post.created_at.strftime("%m/%d/%Y %I:%M %p") %>
+        Album Created on: <%= post.created_at.strftime("%m/%d/%Y %I:%M %p") %>
         </div>
-        <%= button_to 'See Post', post, class: "btn btn-outline-dark" %>
+        <%= link_to 'See Post', post, class: "btn btn-outline-dark" %>
         <%= link_to 'Edit Post', edit_post_path(post), class: "btn btn-outline-dark" %>
         <%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-dark" %>
         </br></br>
